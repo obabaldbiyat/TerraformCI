@@ -6,7 +6,14 @@ terraform {
       version  = "3.43.0"
     }
   }
+ cloud {
+    organization = "obabaldbiyat"
 
+    workspaces {
+      name = "TerraformCI"
+    }
+  }
+  
  
   
 
